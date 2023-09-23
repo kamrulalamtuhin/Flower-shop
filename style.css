@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 /*shared styles*/
 .btn-primary{
@@ -68,7 +69,7 @@ main .featured-section , .support-section , .instagram-section ,
     display: flex;
     gap: 25px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .first-flower{
     border-radius: 300px 300px 0px 0px;
@@ -111,11 +112,137 @@ main .featured-section , .support-section , .instagram-section ,
 }
 .support-title{
     color: rgba(39, 39, 39, 0.80);
-    text-align: center;
+    text-align: center;  
     font-size: 24px;
     font-weight: 600;
 }
 .icons{
     text-align: center;
-}   
+}
+.background-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.off{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
 
+}
+.background-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.background-section{
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    justify-content: center;
+    gap: 200px;
+    margin-top: 130px;
+    padding-top: 100px;
+    padding-left: 350px;
+    padding-bottom: 100px;
+    margin-bottom: 130px;
+    
+}
+.background{
+    width: 50%;
+}
+.sign-up{
+   text-align: center;
+   margin-top: 50px;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.instagram-pic-container{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 130px;
+}
+.instagram-section{
+   margin: 0 auto; 
+}
+.email-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.email-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+}
+.input{
+    text-align: center;
+}
+
+input[type=email]{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFF;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 16px;
+}
+
+
+.email-section{
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    margin: 0 auto;
+    padding: 80px 0;
+   
+}
+/*footer related styles*/
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.flower-shop{
+    color: #E55473;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+} 
+footer{
+    background-color: #111010;
+    padding: 150px;
+    margin-top: 130px;
+}  
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    }
+.footer-ending{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
